@@ -1,3 +1,6 @@
+param location string = resourceGroup().location
+
+
 using main.bicep
 
 param vmconfigs array = [
